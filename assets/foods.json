@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "1",
+    "name": "Gaming Laptop",
+    "price": 1200,
+    "images": [
+      "/assets/menu-images/coffee-1.jpeg",
+      "/assets/menu-images/coffee-2.jpeg"
+    ],
+    "description": "High-performance gaming laptop with powerful graphics and fast processing. Perfect for serious gamers."
+  },
+  {
+    "_id": "2",
+    "name": "T-Shirt",
+    "price": 20,
+    "images": [
+      "/assets/menu-images/pizza-1.jpeg",
+      "/assets/menu-images/pizza-2.jpeg"
+    ],
+    "description": "Comfortable and stylish gaming-themed t-shirt. Great for casual wear or gaming sessions."
+  },
+  {
+    "_id": "3",
+    "name": "Headphone",
+    "price": 50,
+    "images": [
+      "/assets/menu-images/cake-1.jpeg",
+      "/assets/menu-images/cake-2.jpeg"
+    ],
+    "description": "High-quality gaming headphones with surround sound and noise-canceling features. Enhance your gaming experience."
+  },
+  {
+    "_id": "4",
+    "name": "Track Pants",
+    "price": 35,
+    "images": [
+      "/assets/menu-images/paneer-tikka-1.jpeg",
+      "/assets/menu-images/paneer-tikka-2.jpeg"
+    ],
+    "description": "Comfortable track pants ideal for gaming and casual wear. Flexible and breathable material."
+  },
+  {
+    "_id": "5",
+    "name": "Gaming Keyboard",
+    "price": 80,
+    "images": [
+      "/assets/menu-images/salad-1.jpeg",
+      "/assets/menu-images/salad-2.jpeg"
+    ],
+    "description": "RGB mechanical gaming keyboard with customizable keys and fast response time. Perfect for competitive gaming."
+  },
+  {
+    "_id": "6",
+    "name": "Speakers",
+    "price": 60,
+    "images": [
+      "/assets/menu-images/smoothie-1.jpeg",
+      "/assets/menu-images/smoothie-2.jpeg"
+    ],
+    "description": "High-fidelity gaming speakers with deep bass and clear sound. Elevate your gaming audio experience."
+  },
+  {
+    "_id": "7",
+    "name": "Track Pants",
+    "price": 35,
+    "images": [
+      "/assets/menu-images/pasta-1.jpeg",
+      "/assets/menu-images/pasta-2.jpeg"
+    ],
+    "description": "Comfortable track pants ideal for gaming and casual wear. Flexible and breathable material."
+  },
+  {
+    "_id": "8",
+    "name": "Gaming Mouse",
+    "price": 40,
+    "images": [
+      "/assets/menu-images/sushi-1.jpeg",
+      "/assets/menu-images/sushi-2.jpeg"
+    ],
+    "description": "Ergonomic gaming mouse with customizable buttons and high-precision sensor. Ideal for all types of games."
+}
+]
