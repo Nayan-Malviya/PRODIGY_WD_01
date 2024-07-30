@@ -9,60 +9,108 @@
     <link rel="stylesheet" href="/styles/media.css" />
     <link rel="stylesheet" href="/styles/loader.css" />
     <title>Nayan Esports - House of Gaming</title>
+    <style>
+      /* Additional styling for cart page */
+      #cart {
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      #cart h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .cart-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #aba8a8;
+        font-size: 21px;
+      }
+      .message-container {
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        z-index: 1000;
+        text-align: center;
+        font-size: larger;
+      }
+    </style>
   </head>
   <body>
     <div class="loader-container">
       <div class="loader"></div>
     </div>
     <nav class="navbar">
-      <a href="/" id="caffeine-heading">N ESPORTS</a>
+      <a href="#main" id="caffeine-heading" class="nav-link">NESPORTS</a>
       <ul>
         <li>
-          <a href="#main">Home</a>
+          <a href="#main" class="nav-link my">Home</a>
         </li>
         <li>
-          <a href="#menu">Shop</a>
+          <a href="#menu" class="nav-link my">Shop</a>
+        </li>
+        <li>
+          <a href="#cart" class="nav-link my">Cart</a>
         </li>
       </ul>
     </nav>
-    <main id="main">
-      <div class="landing">
-        <div id="landing-background"></div>
-        <div id="background-indicators"></div>
-        <h3>"The Future of Competitive Gaming"</h3>
-        <h1>Play Hard, Win Big</h1>
-        <p>
-          Unleashing Gamers' Potential, Dominating the Digital Battlefield, One
-          Victory at a Time!
-        </p>
-        <a href="#menu" class="button-primary"> Shop Now </a>
-        <div class="carousel-buttons">
-          <button id="carousel-button-prev" onclick="prevSlide()">
-            &#10094;
-          </button>
-          <button id="carousel-button-next" onclick="nextSlide()">
-            &#10095;
-          </button>
+    <div
+      id="message-container"
+      class="message-container"
+      style="
+        display: none;
+      "
+    ></div>
+    <main>
+      <div id="main">
+        <div class="landing">
+          <div id="landing-background"></div>
+          <div id="background-indicators"></div>
+          <h3>"The Future of Competitive Gaming"</h3>
+          <h1>Play Hard, Win Big</h1>
+          <p>
+            Unleashing Gamers' Potential, Dominating the Digital Battlefield,
+            One Victory at a Time!
+          </p>
+          <a href="#menu" class="button-primary nav-link">Shop Now</a>
         </div>
       </div>
       <div id="menu" style="background-color: rgb(128, 159, 174)">
         <h3>Let's Win Something <span class="highlight">Epic</span></h3>
-
         <h1>Shop</h1>
         <div class="menu-items-container"></div>
         <div id="menu-item-details">
           <div class="menu-item-detailed-overlay"></div>
         </div>
       </div>
+      <div
+        id="cart"
+        style="
+          display: none;
+          background-color: rgb(128, 159, 174);
+          padding-top: 80px;
+        "
+      >
+        <h1>Your Cart</h1>
+        <div id="cart-items-container"></div>
+        <h2 id="total-cost">Total: $0.00</h2>
+      </div>
     </main>
     <footer>
       <span
         >&copy; Created by
-        <a href="https://github.com/Nayan-Malviya" target="_blank">Nayan</a>
-      </span>
+        <a href="https://github.com/Nayan-Malviya" target="_blank"
+          >Nayan</a
+        ></span
+      >
       <div>
         <a
-          href="https://github.com/Nayan-Malviya/PRODIGY_WD_01/"
+          href="https://github.com/Nayan-Malviya/PRODIGY_WD_01"
           target="_blank"
         >
           <img
@@ -70,12 +118,12 @@
             alt=""
           />
         </a>
-        <a href="https://www.linkedin.com/in/nayan-malviya-b22000223/" target="_blank">
+        <a href="https://www.linkedin.com/in/Nayan-Malviya/" target="_blank">
           <img src="https://www.svgrepo.com/show/508852/linkedin.svg" alt="" />
         </a>
       </div>
     </footer>
     <div class="scrollbar"></div>
+    <script src="/scripts/script.js"></script>
   </body>
-  <script src="/scripts/script.js"></script>
 </html>
